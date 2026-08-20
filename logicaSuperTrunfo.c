@@ -91,11 +91,8 @@ int main() {
     if (populacao1 > populacao2){
         printf ("\nCidade vencedora é: %s (Com atributo População)\n", cidade1);
     } 
-    else  if (populacao2 > populacao1) {
-        printf ("Cidade vencedora é: %s (Com atributo População)\n", cidade2);
-    }
     else {
-        printf ("Empate! Ambas as cidade têm a mesma população. \n");
+        printf ("Cidade vencedora é: %s (Com atributo População)\n", cidade2);
     }
 
     return 0;
